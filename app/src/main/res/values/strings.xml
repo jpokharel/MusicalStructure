@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Musical Nepal</string>
+    <string name="music_gallery">Music Gallery</string>
+    <string name="news_portals">News Portals</string>
+    <string name="live_tvs">Live TVs</string>
+    <string name="fm_radios">FM Radios</string>
+</resources>

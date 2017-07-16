@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    android:background="@drawable/flag_of_nepal"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <TextView
+        android:id="@+id/fm_radios"
+        style="@style/categoryMenuStyle"
+        android:text="@string/fm_radios" />
+
+    <TextView
+        android:id="@+id/live_tvs"
+        style="@style/categoryMenuStyle"
+        android:text="@string/live_tvs" />
+
+    <TextView
+        android:id="@+id/news_portals"
+        style="@style/categoryMenuStyle"
+        android:text="@string/news_portals" />
+
+    <TextView
+        android:id="@+id/music_library"
+        style="@style/categoryMenuStyle"
+        android:text="@string/music_gallery" />
+
+</LinearLayout>
