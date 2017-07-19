@@ -6,7 +6,7 @@
     android:layout_margin="24dp"
     android:background="@drawable/flag_of_nepal"
     android:orientation="vertical"
-    tools:context="com.example.android.musicalstructure.MainActivity">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/fm_radios"

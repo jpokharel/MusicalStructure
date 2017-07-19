@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+    <TextView
+        android:id="@+id/search_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentTop="true"
+        android:text="Search Your Song"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/search_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="4dp"
+        android:layout_below="@id/search_title_text"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/holo_purple"
+        android:hint="Search your song with Google Search!"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_below="@id/search_edit_view"
+        android:layout_centerInParent="true"
+        android:text="Search"
+        android:gravity="center_vertical"
+        />
+
+</RelativeLayout>

@@ -8,14 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:windowSoftInputMode="adjustPan"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW" />
-                <data android:type="audio/*" />
-                <data android:type="application/ogg" />
-                <category android:name="android.intent.category.DEFAULT" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -31,7 +29,22 @@
         <activity
             android:name=".NewsPortalActivity"
             android:label="@string/news_portals" />
-        <activity android:name=".in_music_gallery"></activity>
+        <activity
+            android:name=".PlaylistActivity"
+            android:label="@string/music_gallery" />
+        <activity
+            android:name=".SongsActivity"
+            android:label="@string/music_gallery" />
+        <activity
+            android:name=".ArtistsActivity"
+            android:label="@string/music_gallery" />
+        <activity
+            android:name=".AlbumsActivity"
+            android:label="@string/music_gallery" />
+        <activity android:name=".MusicPlayActivity" />
+        <activity android:name=".StoreActivity" />
+        <activity android:name=".BrowseActivity" />
+        <activity android:name=".SearchActivity"></activity>
     </application>
 
 </manifest>
