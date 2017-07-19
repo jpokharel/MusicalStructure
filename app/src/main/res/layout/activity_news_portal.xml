@@ -7,92 +7,36 @@
     tools:context=".NewsPortalActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="32dp"
-        android:text="News"
-        android:textColor="@android:color/black"
-        android:textSize="24dp"
-        android:textStyle="bold" />
+        android:id="@+id/newsTextView"
+        style="@style/activityTitleStyle"
+        android:text="@string/news_title_text" />
 
     <TextView
         android:id="@+id/cnn_web"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginBottom="4dp"
-        android:textSize="18dp"
-        android:fontFamily="sans-serif"
-        android:textColor="@android:color/holo_purple"
-        android:text="CNN"/>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        android:background="@color/colorAccent"/>
+        style="@style/regularTextViewStyle"
+        android:text="@string/cnn_text" />
+
+    <View style="@style/horizontalLineStyle" />
+
     <TextView
         android:id="@+id/fox_web"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginBottom="4dp"
-        android:textSize="18dp"
-        android:fontFamily="sans-serif"
-        android:textColor="@android:color/holo_purple"
-        android:text="Fox News"/>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        android:background="@color/colorAccent"/>
+        style="@style/regularTextViewStyle"
+        android:text="@string/fox_text" />
+
+    <View style="@style/horizontalLineStyle" />
+
     <TextView
         android:id="@+id/walstreet_web"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginBottom="4dp"
-        android:textSize="18dp"
-        android:fontFamily="sans-serif"
-        android:textColor="@android:color/holo_purple"
-        android:text="WalStreet"/>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        android:background="@color/colorAccent"/>
+        style="@style/regularTextViewStyle"
+        android:text="@string/walstreet_text" />
+
+    <View style="@style/horizontalLineStyle" />
+
     <TextView
         android:id="@+id/abc_web"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginBottom="4dp"
-        android:textSize="18dp"
-        android:fontFamily="sans-serif"
-        android:textColor="@android:color/holo_purple"
-        android:text="ABC News"/>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        android:background="@color/colorAccent"/>
+        style="@style/regularTextViewStyle"
+        android:text="@string/abc_text" />
+
+    <View style="@style/horizontalLineStyle" />
 
 </LinearLayout>

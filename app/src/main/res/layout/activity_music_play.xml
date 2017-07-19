@@ -7,56 +7,44 @@
     tools:context=".MusicPlayActivity">
 
     <TextView
-        android:id="@+id/music_player_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="32dp"
-        android:text="Music Name"
-        android:textColor="@android:color/black"
-        android:textSize="24dp"
-        android:textStyle="bold" />
+        style="@style/activityTitleStyle"
+        android:text="@string/song_name_text" />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_marginRight="24dp"
         android:layout_marginLeft="24dp"
-        android:src="@drawable/music_symbol"/>
+        android:layout_marginRight="24dp"
+        android:layout_weight="1"
+        android:src="@drawable/music_symbol" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
         android:layout_marginLeft="24dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="24dp">
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="24dp">
 
         <ImageView
             android:id="@+id/music_backward"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/music_backward_button"/>
+            style="@style/musicPlyerButtonStyle"
+            android:src="@drawable/music_backward_button" />
+
         <ImageView
             android:id="@+id/music_play"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/music_play_button"/>
+            style="@style/musicPlyerButtonStyle"
+            android:src="@drawable/music_play_button" />
+
         <ImageView
             android:id="@+id/music_stop"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/music_stop_button"/>
+            style="@style/musicPlyerButtonStyle"
+            android:src="@drawable/music_stop_button" />
+
         <ImageView
             android:id="@+id/music_forward"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/music_forward_button"/>
+            style="@style/musicPlyerButtonStyle"
+            android:src="@drawable/music_forward_button" />
     </LinearLayout>
 
 </LinearLayout>
