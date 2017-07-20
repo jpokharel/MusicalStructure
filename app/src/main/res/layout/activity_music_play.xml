@@ -7,6 +7,7 @@
     tools:context=".MusicPlayActivity">
 
     <TextView
+        android:id="@+id/music_title_text_view"
         style="@style/activityTitleStyle"
         android:text="@string/song_name_text" />
 

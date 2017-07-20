@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MusicPlayActivity extends AppCompatActivity {
@@ -17,6 +18,12 @@ public class MusicPlayActivity extends AppCompatActivity {
         ImageView play_button = (ImageView) findViewById(R.id.music_play);
         ImageView stop_button = (ImageView) findViewById(R.id.music_stop);
         ImageView forward_button = (ImageView) findViewById(R.id.music_forward);
+        TextView musicTitleTextView = (TextView) findViewById(R.id.music_title_text_view);
+
+        String musicTitle = getIntent().getStringExtra("musicTitle");
+
+        //Set the music title in the activity title text view
+        musicTitleTextView.setText(musicTitle);
 
         backward_button.setOnClickListener(new View.OnClickListener() {
             @Override
