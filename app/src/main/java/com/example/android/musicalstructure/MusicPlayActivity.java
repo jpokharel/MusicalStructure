@@ -1,8 +1,10 @@
 package com.example.android.musicalstructure;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,6 +26,15 @@ public class MusicPlayActivity extends AppCompatActivity {
 
         //Set the music title in the activity title text view
         musicTitleTextView.setText(musicTitle);
+
+        Button button = (Button) findViewById(R.id.home_button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
 
         backward_button.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -9,6 +9,10 @@
     tools:context=".MainActivity">
 
     <TextView
+        style="@style/descriptionTextViewStyle"
+        android:text="@string/main_activity_description_text" />
+
+    <TextView
         android:id="@+id/fm_radios"
         style="@style/categoryMenuStyle"
         android:text="@string/fm_radios" />

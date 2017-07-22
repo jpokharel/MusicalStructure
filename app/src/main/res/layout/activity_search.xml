@@ -14,14 +14,14 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="32dp"
         android:layout_marginTop="24dp"
-        android:text="Search Your Song"
+        android:text="@string/search_activity_title_text"
         android:textColor="@android:color/black"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <EditText
         android:id="@+id/search_edit_view"
-        style="@style/regularTextViewStyle"
+        style="@style/descriptionTextViewStyle"
         android:layout_below="@id/search_title_text"
         android:hint="@string/search_hint_text" />
 
@@ -29,10 +29,26 @@
         android:id="@+id/search_song_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:layout_below="@id/search_edit_view"
-        android:layout_centerInParent="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="60dp"
         android:layout_marginTop="64dp"
         android:gravity="center_vertical|center_horizontal"
-        android:text="@string/search_text" />
+        android:text="@string/search_text"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/search_edit_view"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/home_button_text"
+        tools:ignore="RtlHardcoded" />
 
 </RelativeLayout>

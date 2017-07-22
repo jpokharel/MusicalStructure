@@ -45,4 +45,15 @@
     <string name="fm_radios_title_text">Radio Stations</string>
     <string name="song_name_text">Music Name</string>
     <string name="news_title_text">News</string>
+    <string name="main_activity_description_text">This is the main activity page, through whihc the user can navigate to appropriate menu items.</string>
+    <string name="library_activity_description_text">This activity has the functionalities to play music.</string>
+    <string name="home_button_text">Home</string>
+    <string name="news_activity_description_text">This activity provides options to select various news sources. Clicking on each of the options above allows to navigate as intended.</string>
+    <string name="fm_radio_activity_description_text">This activity contains the options to select the intended Radio options.</string>
+    <string name="live_tvs_activity_description_text">This activity provides the options to select the appropriate television networks.</string>
+    <string name="music_play_activity_description_text">This activity implements music play.</string>
+    <string name="songs_activity_description_text">This activity has list of playable songs.</string>
+    <string name="search_activity_title_text">Search Your Song</string>
+    <string name="music_gallery_title_text">Songs</string>
+    <string name="store_activity_title_text">Payment Activity</string>
 </resources>

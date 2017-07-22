@@ -11,6 +11,10 @@
         android:text="@string/fm_radios_title_text" />
 
     <TextView
+        style="@style/descriptionTextViewStyle"
+        android:text="@string/fm_radio_activity_description_text" />
+
+    <TextView
         android:id="@+id/butwal_radio"
         style="@style/regularTextViewStyle"
         android:text="@string/butwal_radio_text" />
@@ -38,5 +42,9 @@
 
     <View style="@style/horizontalLineStyle" />
 
+    <Button
+        android:id="@+id/home_button"
+        style="@style/homeButtonStyle"
+        android:text="@string/home_button_text" />
 
 </LinearLayout>

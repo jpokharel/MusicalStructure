@@ -27,6 +27,15 @@ public class SongsActivity extends AppCompatActivity {
         final TextView tv4 = (TextView) findViewById(R.id.jaaga_lamka);
         final TextView tv5 = (TextView) findViewById(R.id.kutuma_kutu);
 
+        Button button = (Button) findViewById(R.id.home_button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
         song1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
